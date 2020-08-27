@@ -65,16 +65,6 @@ master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
 
-# master.menu.provider ########################################################
-
-master.menu.provider = Proveedor
-master.menu.provider.favourite-link = Enlace favorito
-
-# master.menu.consumer ##########################################################
-
-master.menu.consumer = Consumidor
-master.menu.consumer.favourite-link = Enlace favorito
-
 # master.menu.entrepreneur ##########################################################
 master.menu.entrepreneur = Emprendedor
 master.menu.entrepreneur.investmentRound.list = Inversiones
@@ -90,10 +80,6 @@ master.menu.investor.investmentRound.list = Inversiones
 
 master.menu.user-account = Cuenta
 master.menu.user-account.general-data = Datos generales
-master.menu.user-account.provider = Datos de proveedor
-master.menu.user-account.become-provider = Hazte proveedor
-master.menu.user-account.consumer = Datos de consumidor
-master.menu.user-account.become-consumer = Hazte consumidor
 master.menu.user-account.become-entrepreneur = Hazte empresario
 master.menu.user-account.entrepreneur = Datos de empresario
 master.menu.user-account.become-investor = Hazte inversor
