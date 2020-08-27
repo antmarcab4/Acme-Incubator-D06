@@ -423,7 +423,7 @@ Investor
       <x>651</x>
       <y>490</y>
       <w>301</w>
-      <h>105</h>
+      <h>112</h>
     </coordinates>
     <panel_attributes>Investment Round
 --
@@ -433,7 +433,8 @@ Investor
 + description: String {NotBlank}
 + creation: Date {NotNull, Temporal(TIMESTAMP), PastOrPresent}
 + amount: Money {Valid, NotNull}
-+ optionalLink: String</panel_attributes>
++ optionalLink: String
++ finalMode: boolean</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -487,13 +488,15 @@ m2=1
       <x>1071</x>
       <y>504</y>
       <w>203</w>
-      <h>70</h>
+      <h>91</h>
     </coordinates>
     <panel_attributes>Application
 --
 + ticker: String {NotBlank, Column(unique = true)}
 + creationMoment: Date {NotNull, Temporal(TIMESTAMP), PastOrPresent}
++ status: String {NotNull}
 + statement: String {NotBlank}
++ justification: String
 + moneyOffer: Money {Valid, NotNull}
 </panel_attributes>
     <additional_attributes/>
