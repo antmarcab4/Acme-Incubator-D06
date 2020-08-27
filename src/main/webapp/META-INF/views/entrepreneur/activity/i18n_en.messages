@@ -1,0 +1,23 @@
+entrepreneur.activity.list.label.title = Title
+entrepreneur.activity.list.label.start = Start Date
+entrepreneur.activity.list.label.end = End Date
+entrepreneur.activity.list.label.budget = Budget
+
+entrepreneur.activity.form.label.title = Title
+entrepreneur.activity.form.label.start = Start Date
+entrepreneur.activity.form.label.end = End Date
+entrepreneur.activity.form.label.budget = Budget
+
+entrepreneur.activity.form.button.update = Update
+entrepreneur.activity.form.button.delete = Delete
+entrepreneur.activity.form.button.create = Create
+
+entrepreneur.activity.form.error.finalMode = You can't update when the Investment Round is in Final Mode
+entrepreneur.activity.form.error.spamTitle = This title contain spam
+entrepreneur.activity.budget.currency.error = The currency must be in euros
+entrepreneur.activity.budget.biggerThanAmount.error = Activity budgets sum cannot surpass the amount in the investment.
+entrepreneur.activity.start.error.dateInPast = The date must be in the future
+entrepreneur.activity.start.error.incorrectEnd = The end date must be after the start date
+entrepreneur.activity.form.delete.error = You can't delete activities when the investment is in Final Mode
+
+entrepreneur.activity.form.button.return = Return

@@ -1,0 +1,11 @@
+authenticated.activity.list.label.title = Title
+authenticated.activity.list.label.start = Start Date
+authenticated.activity.list.label.end = End Date
+authenticated.activity.list.label.budget = Budget
+
+authenticated.activity.form.label.title = Title
+authenticated.activity.form.label.start = Start Date
+authenticated.activity.form.label.end = End Date
+authenticated.activity.form.label.budget = Budget
+
+authenticated.activity.form.button.return = Return

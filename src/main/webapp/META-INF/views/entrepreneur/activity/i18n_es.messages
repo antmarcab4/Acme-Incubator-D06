@@ -1,0 +1,23 @@
+entrepreneur.activity.list.label.title = Titulo
+entrepreneur.activity.list.label.start = Fecha de comienzo
+entrepreneur.activity.list.label.end = Fecha final
+entrepreneur.activity.list.label.budget = Presupuesto
+
+entrepreneur.activity.form.label.title = Titulo
+entrepreneur.activity.form.label.start = Fecha de comienzo
+entrepreneur.activity.form.label.end = Fecha final
+entrepreneur.activity.form.label.budget = Presupuesto
+
+entrepreneur.activity.form.button.update = Actualizar
+entrepreneur.activity.form.button.delete = Borrar
+entrepreneur.activity.form.button.create = Crear
+
+entrepreneur.activity.form.error.finalMode = No puedes actualizar cuando la inversion esta en modo final
+entrepreneur.activity.form.error.spamTitle = El titulo contiene spam
+entrepreneur.activity.budget.currency.error = El dinero debe estar en euros
+entrepreneur.activity.budget.biggerThanAmount.error = La suma de los presupuestos de las actividades no puede superar al necesitado para la inversión
+entrepreneur.activity.start.error.dateInPast = La fecha no puede estar en pasado
+entrepreneur.activity.start.error.incorrectEnd = La fecha de fin debe de estar después de la de comienzo
+entrepreneur.activity.form.delete.error = No puedes borrar una actividad cuando la inversión está en modo final
+	
+entrepreneur.activity.form.button.return = Volver

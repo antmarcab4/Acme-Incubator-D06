@@ -1,0 +1,27 @@
+administrator.challenge.list.label.title = Title
+administrator.challenge.list.label.deadline = Deadline
+administrator.challenge.list.label.premio-rookie = Rookie level reward
+administrator.challenge.list.label.premio-average = Average level reward
+administrator.challenge.list.label.premio-expert = Expert level reward
+
+administrator.challenge.form.label.title = Title
+administrator.challenge.form.label.deadline = Deadline
+administrator.challenge.form.label.description = Description
+administrator.challenge.form.label.objetivo-rookie = Rookie level goal
+administrator.challenge.form.label.premio-rookie = Rookie level reward
+administrator.challenge.form.label.objetivo-average = Average level goal
+administrator.challenge.form.label.premio-average = Average level reward
+administrator.challenge.form.label.objetivo-expert = Expert level goal
+administrator.challenge.form.label.premio-expert = Expert level reward
+	
+	
+	
+administrator.challenge.form.button.create = Create
+administrator.challenge.form.button.return = Return
+administrator.challenge.form.button.update = Update
+administrator.challenge.form.button.delete = Delete
+
+administrator.challenge.form.error.invalidmoney = Only euros are allowed
+administrator.challenge.form.error.invaliddeadline = Deadline has to be at least 30 days in the future
+administrator.challenge.form.error.invalidreward = this reward has to be bigger than the one of the previous level
+

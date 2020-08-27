@@ -1,0 +1,19 @@
+authenticated.challenge.list.label.title = Título
+authenticated.challenge.list.label.deadline = Fecha límite
+authenticated.challenge.list.label.premio-rookie = Premio del nivel Rookie
+authenticated.challenge.list.label.premio-average = Premio del nivel Average
+authenticated.challenge.list.label.premio-expert = Premio del nivel Expert
+
+authenticated.challenge.form.label.title = Título
+authenticated.challenge.form.label.deadline = Fecha Límite
+authenticated.challenge.form.label.description = Descripción
+authenticated.challenge.form.label.objetivo-rookie = Objetivo del nivel Rookie
+authenticated.challenge.form.label.premio-rookie = Premio del nivel Rookie
+authenticated.challenge.form.label.objetivo-average = Objetivo del nivel Average
+authenticated.challenge.form.label.premio-average = Premio del nivel Average
+authenticated.challenge.form.label.objetivo-expert = Objetivo del nivel Expert
+authenticated.challenge.form.label.premio-expert = Premio del nivel Expert
+	
+	
+authenticated.challenge.form.button.create = Crear
+authenticated.challenge.form.button.return = Volver

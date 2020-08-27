@@ -1,0 +1,27 @@
+entrepreneur.investmentRound.list.label.title = Title
+entrepreneur.investmentRound.list.label.round = Kind of round
+entrepreneur.investmentRound.list.label.description = Description
+entrepreneur.investmentRound.list.label.creation = Creation moment
+entrepreneur.investmentRound.list.label.amount = Money amount
+entrepreneur.investmentRound.list.label.optionalLink = Optional link
+entrepreneur.investmentRound.list.label.ticker = Ticker
+entrepreneur.investmentRound.form.label.finalMode = Final mode
+entrepreneur.investmentRound.form.label.false = No
+entrepreneur.investmentRound.form.label.true = Yes
+
+entrepreneur.investmentRound.form.delete.message = An investment round can not be deleted if an investor has applied for it
+entrepreneur.investmentRound.form.error.spamDescription = This description contains spam
+entrepreneur.investmentRound.ticker.activity.error = First part of the ticker denotes the first three letters of the corresponding activity sector
+entrepreneur.investmentRound.ticker.year.error = Second part denotes the last two digits of the creation year
+entrepreneur.investmentRound.form.error.budgetsNotSumAmount = Activity budgets sum is not equal to the amount in the investment
+entrepreneur.investmentRound.form.error.budgetsIsNull = There are not activities associated to the investment
+entrepreneur.investmentRound.amount.currency.error = Money currency is euros
+entrepreneur.investmentRound.ticker.tickerInUse = The ticker is already in use
+
+entrepreneur.investmentRound.form.label.activities = Work Programme
+entrepreneur.investmentRound.form.label.createActivities = Create Activity
+	
+entrepreneur.investmentRound.form.button.update = Update	
+entrepreneur.investmentRound.form.button.create= Create
+entrepreneur.investmentRound.form.button.delete= Delete
+entrepreneur.investmentRound.button.return = Return

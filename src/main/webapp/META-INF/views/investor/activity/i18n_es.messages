@@ -1,0 +1,11 @@
+investor.activity.list.label.title = Titulo
+investor.activity.list.label.start = Fecha de comienzo
+investor.activity.list.label.end = Fecha final
+investor.activity.list.label.budget = Presupuesto
+
+investor.activity.form.label.title = Titulo
+investor.activity.form.label.start = Fecha de comienzo
+investor.activity.form.label.end = Fecha final
+investor.activity.form.label.budget = Presupuesto
+	
+investor.activity.form.button.return = Volver

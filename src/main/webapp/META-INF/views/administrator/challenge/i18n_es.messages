@@ -1,0 +1,25 @@
+administrator.challenge.list.label.title = Título
+administrator.challenge.list.label.deadline = Fecha límite
+administrator.challenge.list.label.premio-rookie = Premio del nivel Rookie
+administrator.challenge.list.label.premio-average = Premio del nivel Average
+administrator.challenge.list.label.premio-expert = Premio del nivel Expert
+
+administrator.challenge.form.label.title = Título
+administrator.challenge.form.label.deadline = Fecha Límite
+administrator.challenge.form.label.description = Descripción
+administrator.challenge.form.label.objetivo-rookie = Objetivo del nivel Rookie
+administrator.challenge.form.label.premio-rookie = Premio del nivel Rookie
+administrator.challenge.form.label.objetivo-average = Objetivo del nivel Average
+administrator.challenge.form.label.premio-average = Premio del nivel Average
+administrator.challenge.form.label.objetivo-expert = Objetivo del nivel Expert
+administrator.challenge.form.label.premio-expert = Premio del nivel Expert
+	
+	
+administrator.challenge.form.button.create = Crear
+administrator.challenge.form.button.return = Volver
+administrator.challenge.form.button.update = Actualizar
+administrator.challenge.form.button.delete = Borrar
+
+administrator.challenge.form.error.invalidmoney = Solo se permiten euros
+administrator.challenge.form.error.invaliddeadline = La fecha límite debe ser como mínimo dentro de 30 días
+administrator.challenge.form.error.invalidreward = Esta recompensa debe ser mayor a la de la anterior meta

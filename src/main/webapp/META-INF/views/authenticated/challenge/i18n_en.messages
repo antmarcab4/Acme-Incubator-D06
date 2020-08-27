@@ -1,0 +1,19 @@
+authenticated.challenge.list.label.title = Title
+authenticated.challenge.list.label.deadline = Deadline
+authenticated.challenge.list.label.premio-rookie = Rookie level reward
+authenticated.challenge.list.label.premio-average = Average level reward
+authenticated.challenge.list.label.premio-expert = Expert level reward
+
+authenticated.challenge.form.label.title = Title
+authenticated.challenge.form.label.deadline = Deadline
+authenticated.challenge.form.label.description = Description
+authenticated.challenge.form.label.objetivo-rookie = Rookie level goal
+authenticated.challenge.form.label.premio-rookie = Rookie level reward
+authenticated.challenge.form.label.objetivo-average = Average level goal
+authenticated.challenge.form.label.premio-average = Average level reward
+authenticated.challenge.form.label.objetivo-expert = Expert level goal
+authenticated.challenge.form.label.premio-expert = Expert level reward
+	
+	
+authenticated.challenge.form.button.create = Create
+authenticated.challenge.form.button.return = Return

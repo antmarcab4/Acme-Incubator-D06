@@ -1,0 +1,13 @@
+authenticated.notice.list.label.header = Cabecera
+authenticated.notice.list.label.title = Titulo
+authenticated.notice.list.label.creationDateTime = Fecha de Creacion
+authenticated.notice.list.label.deadline = Fecha Límite
+
+authenticated.notice.form.label.header = Cabecera
+authenticated.notice.form.label.title = Titulo
+authenticated.notice.form.label.creationDateTime = Fecha de Creacion
+authenticated.notice.form.label.deadline = Fecha Límite
+authenticated.notice.form.label.body = Cuerpo
+authenticated.notice.form.label.optionalLinks = Enlaces opcionales
+
+authenticated.notice.button.return = Volver

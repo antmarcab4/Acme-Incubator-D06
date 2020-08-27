@@ -1,0 +1,9 @@
+authenticated.overture.list.label.title = Title
+authenticated.overture.list.label.creation = Creation date
+authenticated.overture.list.label.deadline = Deadline
+authenticated.overture.list.label.description = Description
+authenticated.overture.list.label.minMoney = Minimum money
+authenticated.overture.list.label.maxMoney = Maximun money
+authenticated.overture.list.label.email = Email
+
+authenticated.overture.button.return = Return

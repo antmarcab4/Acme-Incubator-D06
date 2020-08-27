@@ -1,0 +1,19 @@
+administrator.notice.list.label.header = Cabecera
+administrator.notice.list.label.title = Titulo
+administrator.notice.list.label.creationDateTime = Fecha de Creacion
+administrator.notice.list.label.deadline = Fecha Límite
+
+administrator.notice.form.label.header = Cabecera
+administrator.notice.form.label.title = Titulo
+administrator.notice.form.label.creationDateTime = Fecha de Creacion
+administrator.notice.form.label.deadline = Fecha Límite
+administrator.notice.form.label.body = Cuerpo
+administrator.notice.form.label.optionalLinks = Enlaces opcionales
+
+administrator.notice.button.return = Volver
+administrator.notice.checkbox.confirmCreate = Confirmar creación
+administrator.notice.form.button.create = Crear
+
+administrator.notice.error.NotUrls = No son URLs válidas
+administrator.notice.error.incorrectDeadline = La fecha límite debe estar un mínimo de 7 días por delante de la fecha actual
+administrator.notice.error.confirmCreate = Debes confirmar la creación

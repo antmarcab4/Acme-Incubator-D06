@@ -1,0 +1,11 @@
+authenticated.toolRecord.list.label.title = Titulo
+authenticated.toolRecord.list.label.activitySector= Sector de trabajo
+authenticated.toolRecord.list.label.inventor = Inventor
+authenticated.toolRecord.list.label.description = Descripcion
+authenticated.toolRecord.list.label.webSite = Pagina Web
+authenticated.toolRecord.list.label.email = Correo electronico
+authenticated.toolRecord.list.label.openSource = Código abierto
+authenticated.toolRecord.list.label.stars = Estrellas
+authenticated.toolRecord.list.button.search= Buscar
+
+authenticated.toolRecord.button.return = Volver 

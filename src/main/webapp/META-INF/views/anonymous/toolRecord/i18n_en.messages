@@ -1,0 +1,11 @@
+anonymous.toolRecord.list.label.title = Title
+anonymous.toolRecord.list.label.activitySector= Activity Sector
+anonymous.toolRecord.list.label.inventor = Inventor
+anonymous.toolRecord.list.label.description = Description
+anonymous.toolRecord.list.label.webSite = Web Site
+anonymous.toolRecord.list.label.email = Email
+anonymous.toolRecord.list.label.openSource = Open Source
+anonymous.toolRecord.list.label.stars = Stars
+anonymous.toolRecord.list.button.search= Search
+
+anonymous.toolRecord.button.return = Return

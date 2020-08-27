@@ -1,0 +1,11 @@
+authenticated.investmentRound.list.label.title = Title
+authenticated.investmentRound.list.label.round = Kind of round
+authenticated.investmentRound.list.label.description = Description
+authenticated.investmentRound.list.label.creation = Creation moment
+authenticated.investmentRound.list.label.amount = Money amount
+authenticated.investmentRound.list.label.optionalLink = Optional link
+authenticated.investmentRound.list.label.ticker = Ticker
+	
+authenticated.investmentRound.form.label.activities = Work Programme
+
+authenticated.investmentRound.button.return= Return

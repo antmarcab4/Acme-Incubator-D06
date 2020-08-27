@@ -1,0 +1,21 @@
+entrepreneur.application.list.label.ticker = Ticker
+entrepreneur.application.list.label.creation-moment = Creation moment
+entrepreneur.application.list.label.money-offer = Money Offer 
+
+entrepreneur.application.form.label.ticker = Ticker
+entrepreneur.application.form.label.creation-moment = Creation moment
+entrepreneur.application.form.label.statement = Statement
+entrepreneur.application.form.label.money-offer = Money Offer 
+entrepreneur.application.form.label.status = Status
+entrepreneur.application.form.label.status.accepted = Accepted
+entrepreneur.application.form.label.status.rejected = Rejected
+entrepreneur.application.form.label.status.pending =  Pending
+entrepreneur.application.form.label.justification = Justification
+
+entrepreneur.application.reject.form.error.invalidjustification = If an application is rejected, you have to provide a justification
+entrepreneur.application.accept.form.error.tooMuchMoney = You can't accept if you surpass the I.Round money with this application
+investor.application.form.error.spamJustification = The justification can't contain spam words
+
+entrepreneur.application.form.label.investmentRounds = Investment round associated
+entrepreneur.application.form.button.update = Update
+entrepreneur.application.form.button.return = Return

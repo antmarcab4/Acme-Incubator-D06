@@ -1,0 +1,21 @@
+investor.application.list.label.ticker = Ticker
+investor.application.list.label.creation-moment = Creation moment
+investor.application.list.label.money-offer = Money Offer 
+
+investor.application.form.label.ticker = Ticker
+investor.application.form.label.creation-moment = Creation moment
+investor.application.form.label.statement = Statement
+investor.application.form.label.money-offer = Money Offer 
+investor.application.form.label.investmentRounds = Investment Round
+
+investor.application.ticker.error.year = The two middle numbers have to be the last two numbers of this year
+investor.application.ticker.error.uppercase = The ticker has to be written in capital letters
+investor.application.ticker.error.activity = The first three letters of the ticker have to be the first three letters of the I.Round entrepreneur's activity sector. fill with X when not possible
+investor.application.form.error.spamStatement = The statement can't contain spam words
+investor.application.moneyOffer.error.maxSurpassed = Can't invest more than the max investment amount
+investor.application.moneyOffer.error.currency = Can't use a currency that isn't euros
+investor.application.moneyOffer.error.negativeMoney = Can't use negative amounts
+investor.application.ticker.error.tickerInUse = The ticker is already in use
+
+investor.application.form.button.create = Create
+investor.application.form.button.return = Return

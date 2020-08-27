@@ -1,0 +1,27 @@
+entrepreneur.investmentRound.list.label.title = Titulo
+entrepreneur.investmentRound.list.label.round = Tipo de inversion
+entrepreneur.investmentRound.list.label.description = Descripcion
+entrepreneur.investmentRound.list.label.creation = Momento de creacion
+entrepreneur.investmentRound.list.label.amount = Cantidad de dinero
+entrepreneur.investmentRound.list.label.optionalLink = Link opcional
+entrepreneur.investmentRound.list.label.ticker = Ticker
+entrepreneur.investmentRound.form.label.finalMode = Modo final
+entrepreneur.investmentRound.form.label.false = No
+entrepreneur.investmentRound.form.label.true = Si
+
+entrepreneur.investmentRound.form.delete.message = Una inversion no puede ser borrada si un inversor ha aplicado por ella
+entrepreneur.investmentRound.form.error.spamDescription = Esta descripcion contiene spam
+entrepreneur.investmentRound.ticker.activity.error = La primera parte del ticker corresponde a las tres primeras letras del tipo de sector
+entrepreneur.investmentRound.ticker.year.error = La segunda parte del ticker corresponde a los dos ultimos digitos del año de creacion
+entrepreneur.investmentRound.form.error.budgetsNotSumAmount = La suma de los presupuestos de las actividades no es igual al necesitado por la inversion 
+entrepreneur.investmentRound.form.error.budgetsIsNull = No hay actividades asociadas a la inversion	
+entrepreneur.investmentRound.amount.currency.error = La moneda debe estar expresada en euros 
+entrepreneur.investmentRound.ticker.tickerInUse = Este ticker ya esta en uso
+	
+entrepreneur.investmentRound.form.label.activities = Programa del trabajo
+entrepreneur.investmentRound.form.label.createActivities = Crear Actividad
+
+entrepreneur.investmentRound.form.button.update = Modificar	
+entrepreneur.investmentRound.form.button.create= Crear
+entrepreneur.investmentRound.form.button.delete= Borrar
+entrepreneur.investmentRound.button.return= Volver

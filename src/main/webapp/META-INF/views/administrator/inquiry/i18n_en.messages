@@ -1,0 +1,18 @@
+administrator.inquiry.list.label.title = Title
+administrator.inquiry.list.label.creation= Creation date
+administrator.inquiry.list.label.deadline = Deadline
+administrator.inquiry.list.label.description = Description
+administrator.inquiry.list.label.email = Email
+administrator.inquiry.list.label.minMoney = Min. Value
+administrator.inquiry.list.label.maxMoney = Max. Value
+administrator.inquiry.list.label.money= Money interval:
+administrator.inquiry.form.button.update = Update
+administrator.inquiry.form.button.delete = Delete
+administrator.inquiry.form.button.create = Create
+
+administrator.inquiry.button.return = Return
+
+administrator.inquiry.deadline.error = Deadline must be at least 7 days ahead
+administrator.inquiry.minMoney.currency.error = Currency must be Euros
+administrator.inquiry.maxMoney.currency.error = Currency must be Euros
+administrator.inquiry.moneyRange.error = Min. money amount must be greater than max. money amount

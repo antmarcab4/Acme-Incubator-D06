@@ -1,0 +1,19 @@
+administrator.inquiry.list.label.title = Titulo
+administrator.inquiry.list.label.creation= Fecha de creacion
+administrator.inquiry.list.label.deadline = Fecha de finalizacion
+administrator.inquiry.list.label.description = Descripcion
+administrator.inquiry.list.label.email = Correo electronico
+administrator.inquiry.list.label.minMoney = Valor min. 
+administrator.inquiry.list.label.maxMoney = Valor max.
+administrator.inquiry.list.label.money= Intervalo economico:
+administrator.inquiry.form.button.update = Actualizar
+administrator.inquiry.form.button.delete = Borrar
+administrator.inquiry.form.button.create = Crear
+administrator.inquiry.button.return = Volver
+
+administrator.inquiry.deadline.error = La fecha límite debe estar un mínimo de 7 días por delante de la fecha actual
+administrator.inquiry.minMoney.currency.error = La moneda debe ser Euros
+administrator.inquiry.maxMoney.currency.error = La moneda debe ser Euros
+administrator.inquiry.moneyRange.error = La cantidad mínima de dinero no puede ser mayor que la máxima
+
+administrator.inquiry.button.return = Volver 

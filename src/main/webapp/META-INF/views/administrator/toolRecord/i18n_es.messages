@@ -1,0 +1,14 @@
+administrator.toolRecord.list.label.title = Titulo
+administrator.toolRecord.list.label.activitySector= Sector de trabajo
+administrator.toolRecord.list.label.inventor = Inventor
+administrator.toolRecord.list.label.description = Descripcion
+administrator.toolRecord.list.label.webSite = Pagina Web
+administrator.toolRecord.list.label.email = Correo electronico
+administrator.toolRecord.list.label.openSource = Código abierto
+administrator.toolRecord.list.label.stars = Estrellas
+
+administrator.toolRecord.form.button.create = Crear
+administrator.toolRecord.form.button.update = Modificar
+administrator.toolRecord.form.button.delete = Borrar
+
+administrator.toolRecord.button.return = Volver 

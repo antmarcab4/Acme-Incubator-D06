@@ -1,0 +1,11 @@
+anonymous.technologyRecord.list.label.title = Titulo
+anonymous.technologyRecord.list.label.activitySector= Sector de trabajo
+anonymous.technologyRecord.list.label.inventor = Inventor
+anonymous.technologyRecord.list.label.description = Descripcion
+anonymous.technologyRecord.list.label.webSite = Pagina Web
+anonymous.technologyRecord.list.label.email = Correo electronico
+anonymous.technologyRecord.list.label.openSource = Código abierto
+anonymous.technologyRecord.list.label.stars = Estrellas
+anonymous.technologyRecord.list.button.search= Buscar
+
+anonymous.technologyRecord.button.return = Return 

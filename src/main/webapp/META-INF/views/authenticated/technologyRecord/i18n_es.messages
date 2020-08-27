@@ -1,0 +1,11 @@
+authenticated.technologyRecord.list.label.title = Titulo
+authenticated.technologyRecord.list.label.activitySector= Sector de trabajo
+authenticated.technologyRecord.list.label.inventor = Inventor
+authenticated.technologyRecord.list.label.description = Descripcion
+authenticated.technologyRecord.list.label.webSite = Pagina Web
+authenticated.technologyRecord.list.label.email = Correo electronico
+authenticated.technologyRecord.list.label.openSource = Código abierto
+authenticated.technologyRecord.list.label.stars = Estrellas
+authenticated.technologyRecord.list.button.search= Buscar
+
+authenticated.technologyRecord.button.return = Volver 

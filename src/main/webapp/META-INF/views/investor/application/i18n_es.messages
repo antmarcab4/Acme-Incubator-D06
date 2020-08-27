@@ -1,0 +1,22 @@
+investor.application.list.label.ticker = Ticker
+investor.application.list.label.creation-moment = Momento de creación
+investor.application.list.label.money-offer = Oferta de dinero
+
+investor.application.form.label.ticker = Ticker
+investor.application.form.label.creation-moment = Momento de creación
+investor.application.form.label.statement = Declaración
+investor.application.form.label.money-offer = Oferta de dinero
+investor.application.form.label.investmentRounds = Ronda de inversión
+
+investor.application.ticker.error.year = Los dos números centrales deben ser los dos últimos números de este año
+investor.application.ticker.error.uppercase = El ticer tiene que estar escrito en mayúsculas
+investor.application.ticker.error.activity = Las tres primeras letras del ticker deben ser las tres primeras letras del sector de actividad del emprendedor que ha creado la ronda de inversión. Rellenar con X cuando no sea posible
+investor.application.form.error.spamStatement = La declaración no puede contener palabras spam
+investor.application.moneyOffer.error.maxSurpassed = No se puede invertir más de la cantidad máxima de la ronda de inversión
+investor.application.moneyOffer.error.currency = No se puede usar una moneda que no sea el euro
+investor.application.moneyOffer.error.negativeMoney = No se pueden usar cantidades negativas
+investor.application.ticker.error.tickerInUse = Este ticker ya esta en uso
+
+investor.application.form.button.create = Crear
+investor.application.form.button.return = Volver
+

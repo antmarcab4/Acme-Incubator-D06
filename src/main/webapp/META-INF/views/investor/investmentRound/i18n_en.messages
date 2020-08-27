@@ -1,0 +1,12 @@
+investor.investmentRound.list.label.title = Title
+investor.investmentRound.list.label.round = Kind of round
+investor.investmentRound.list.label.description = Description
+investor.investmentRound.list.label.creation = Creation moment
+investor.investmentRound.list.label.amount = Money amount
+investor.investmentRound.list.label.optionalLink = Optional link
+investor.investmentRound.list.label.ticker = Ticker
+
+investor.investmentRound.form.label.activities = Work Programme
+	
+investor.investmentRoundApp.form.button.create = Apply to invest
+investor.investmentRound.button.return= Return

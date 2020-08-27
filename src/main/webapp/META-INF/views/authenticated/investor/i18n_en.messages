@@ -1,0 +1,7 @@
+authenticated.investor.form.label.firmName = Firm Name	
+authenticated.investor.form.label.sector = Sector
+authenticated.investor.form.label.profile = Profile
+
+authenticated.investor.form.button.create = Create
+authenticated.investor.form.button.update = Update
+authenticated.investor.form.button.return = Return

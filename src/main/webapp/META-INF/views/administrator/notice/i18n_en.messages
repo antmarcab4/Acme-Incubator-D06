@@ -1,0 +1,19 @@
+administrator.notice.list.label.header = Header
+administrator.notice.list.label.title = Title
+administrator.notice.list.label.creationDateTime = Creation Date
+administrator.notice.list.label.deadline = Deadline
+
+administrator.notice.form.label.header = Header
+administrator.notice.form.label.title = Title
+administrator.notice.form.label.creationDateTime = Creation Date
+administrator.notice.form.label.deadline = Deadline
+administrator.notice.form.label.body = Body
+administrator.notice.form.label.optionalLinks = Optional Links
+
+administrator.notice.button.return = Return
+administrator.notice.checkbox.confirmCreate = Confirm creation
+administrator.notice.form.button.create = Create
+
+administrator.notice.error.NotUrls = Invalid URLs
+administrator.notice.error.incorrectDeadline = Deadline must be at least 7 days ahead
+administrator.notice.error.confirmCreate = You must to confirm the creation

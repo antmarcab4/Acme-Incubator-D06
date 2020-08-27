@@ -1,0 +1,13 @@
+authenticated.notice.list.label.header = Header
+authenticated.notice.list.label.title = Title
+authenticated.notice.list.label.creationDateTime = Creation Date
+authenticated.notice.list.label.deadline = Deadline
+
+authenticated.notice.form.label.header = Header
+authenticated.notice.form.label.title = Title
+authenticated.notice.form.label.creationDateTime = Creation Date
+authenticated.notice.form.label.deadline = Deadline
+authenticated.notice.form.label.body = Body
+authenticated.notice.form.label.optionalLinks = Optional Links
+
+authenticated.notice.button.return = Return

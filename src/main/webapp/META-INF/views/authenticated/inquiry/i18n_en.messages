@@ -1,0 +1,10 @@
+authenticated.inquiry.list.label.title = Title
+authenticated.inquiry.list.label.creation= Creation date
+authenticated.inquiry.list.label.deadline = Deadline
+authenticated.inquiry.list.label.description = Description
+authenticated.inquiry.list.label.email = Email
+authenticated.inquiry.list.label.minMoney = Min. Value
+authenticated.inquiry.list.label.maxMoney = Max. Value
+authenticated.inquiry.list.label.money= Money interval:
+
+authenticated.inquiry.button.return = Return
