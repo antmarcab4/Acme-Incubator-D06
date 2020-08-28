@@ -108,7 +108,7 @@ public class EntrepreneurApplicationUpdateService implements AbstractUpdateServi
 			Parameter p = this.repository.findParameters();
 			String spamWords = p.getSpamwords();
 			Double spamThreshold = p.getSpamthreshold();
-			String justification = entity.getJustification();
+			String justification = entity.getJustification().toLowerCase();
 			errors.state(request, !ParameterMethods.isSpam(justification, spamWords, spamThreshold), "justification", "investor.application.form.error.spamJustification");
 		}
 	}

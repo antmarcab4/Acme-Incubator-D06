@@ -98,7 +98,7 @@ public class EntrepreneurInvestmentRoundCreateService implements AbstractCreateS
 			Parameter p = this.repository.findParameters();
 			String spamWords = p.getSpamwords();
 			Double spamThreshold = p.getSpamthreshold();
-			String description = entity.getTitle();
+			String description = entity.getTitle().toLowerCase();
 			errors.state(request, !parameterMethods.isSpam(description, spamWords, spamThreshold), "title", "entrepreneur.investmentRound.form.error.spamDescription");
 		}
 

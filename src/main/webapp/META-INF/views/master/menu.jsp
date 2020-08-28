@@ -10,7 +10,7 @@
 - they accept any liabilities with respect to them.
 --%>
 
-<%@page language="java" import="acme.framework.helpers.PrincipalHelper,acme.entities.roles.Provider,acme.entities.roles.Consumer"%>
+<%@page language="java" import="acme.framework.helpers.PrincipalHelper"%>
 
 <%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="tiles" uri="http://tiles.apache.org/tags-tiles"%>
@@ -46,7 +46,8 @@
 			<acme:menu-suboption code="master.menu.administrator.challenge.list" action="/administrator/challenge/list" />
 			<acme:menu-suboption code="master.menu.administrator.technologyRecord.list" action="/administrator/technology-record/list" />
 			<acme:menu-suboption code="master.menu.administrator.overture.list" action="/administrator/overture/list" />
-      <acme:menu-suboption code="master.menu.administrator.toolRecord.list" action="/administrator/tool-record/list" />
+      		<acme:menu-suboption code="master.menu.administrator.toolRecord.list" action="/administrator/tool-record/list" />
+      		<acme:menu-suboption code="master.menu.administrator.showRequest" action="/administrator/parameter/show"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.challenge.create" action="/administrator/challenge/create" access="hasRole('Administrator')"/>
 			<acme:menu-suboption code="master.menu.administrator.technologyRecord.create" action="/administrator/technology-record/create" access="hasRole('Administrator')"/>

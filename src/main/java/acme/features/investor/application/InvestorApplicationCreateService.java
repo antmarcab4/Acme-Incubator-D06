@@ -148,7 +148,7 @@ public class InvestorApplicationCreateService implements AbstractCreateService<I
 			Parameter p = this.repository.findParameters();
 			String spamWords = p.getSpamwords();
 			Double spamThreshold = p.getSpamthreshold();
-			String statement = entity.getStatement();
+			String statement = entity.getStatement().toLowerCase();
 			errors.state(request, !ParameterMethods.isSpam(statement, spamWords, spamThreshold), "statement", "investor.application.form.error.spamStatement");
 		}
 
