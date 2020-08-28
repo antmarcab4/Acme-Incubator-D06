@@ -382,9 +382,10 @@
 
 	<!-- Parameter -->
 
-	<bean id="parameter" class= "acme.entities.parameters.Parameter">
-		<property name= "spamwords" value="sex, hardcore, viagra, cialis, nigeria, you`ve won, million dollar, sexo, has ganado, millon de dolares"/>
-		<property name= "spamthreshold" value= "2.5"/>
+	<bean class="acme.entities.parameters.Parameter" id="parameter">
+		<property value="sex, hard core, viagra, cialis, nigeria, you`ve won, million dollar, sexo, has ganado, millon de dolares" name="spamwords"/>
+		<property value="2.5" name="spamthreshold"/>
+		<property value="Technology, Science, Arts, Business, Health" name="activitySector"/>
 	</bean>
 	
 </beans>

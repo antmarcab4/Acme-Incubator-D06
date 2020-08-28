@@ -46,7 +46,8 @@
 			<acme:menu-suboption code="master.menu.administrator.challenge.list" action="/administrator/challenge/list" />
 			<acme:menu-suboption code="master.menu.administrator.technologyRecord.list" action="/administrator/technology-record/list" />
 			<acme:menu-suboption code="master.menu.administrator.overture.list" action="/administrator/overture/list" />
-      <acme:menu-suboption code="master.menu.administrator.toolRecord.list" action="/administrator/tool-record/list" />
+      		<acme:menu-suboption code="master.menu.administrator.toolRecord.list" action="/administrator/tool-record/list" />
+      		<acme:menu-suboption code="master.menu.administrator.showRequest" action="/administrator/parameter/show"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.challenge.create" action="/administrator/challenge/create" access="hasRole('Administrator')"/>
 			<acme:menu-suboption code="master.menu.administrator.technologyRecord.create" action="/administrator/technology-record/create" access="hasRole('Administrator')"/>

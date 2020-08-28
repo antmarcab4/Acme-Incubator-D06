@@ -100,7 +100,7 @@ public class EntrepreneurActivityUpdateService implements AbstractUpdateService<
 				Parameter p = this.repository.findParameters();
 				String spamWords = p.getSpamwords();
 				Double spamThreshold = p.getSpamthreshold();
-				String title = entity.getTitle();
+				String title = entity.getTitle().toLowerCase();
 				errors.state(request, !parameterMethods.isSpam(title, spamWords, spamThreshold), "title", "entrepreneur.activity.form.error.spamTitle");
 			}
 

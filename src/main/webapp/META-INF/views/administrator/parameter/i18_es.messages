@@ -1,0 +1,5 @@
+administrator.parameter.form.label.spamthreshold = Spamthreshold:
+administrator.parameter.form.label.spamwords = Palabras spam:
+administrator.parameter.form.label.activitySector = Actividades:
+administrator.parameter.form.button.update = Modificar
+administrator.parameter.form.button.return = Volver

@@ -64,6 +64,7 @@ master.menu.administrator.overture.create = Nueva Propuesta
 master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
+master.menu.administrator.showRequest = Parametros
 
 # master.menu.entrepreneur ##########################################################
 master.menu.entrepreneur = Emprendedor
