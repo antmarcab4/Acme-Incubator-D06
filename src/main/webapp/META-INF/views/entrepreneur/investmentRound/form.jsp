@@ -5,7 +5,7 @@
 <acme:form>
 	<acme:form-textbox code="entrepreneur.investmentRound.list.label.title" path="title"/>
 	
-	<jstl:if test="${round == 'SEED'}">
+	<jstl:if test="${command == 'create'}">
 	<acme:form-select code="entrepreneur.investmentRound.list.label.round" path="round">
 		<acme:form-option code="SEED" value="SEED"/>
 		<acme:form-option code="ANGEL" value="ANGEL"/>
@@ -16,7 +16,18 @@
 	</acme:form-select>
 	</jstl:if>
 	
-	<jstl:if test="${round == 'ANGEL'}">
+	<jstl:if test="${round == 'SEED' && command != 'create'}">
+	<acme:form-select code="entrepreneur.investmentRound.list.label.round" path="round">
+		<acme:form-option code="SEED" value="SEED"/>
+		<acme:form-option code="ANGEL" value="ANGEL"/>
+		<acme:form-option code="SERIES A" value="SERIES_A"/>
+		<acme:form-option code="SERIES B" value="SERIES_B"/>
+		<acme:form-option code="SERIES C" value="SERIES_C"/>
+		<acme:form-option code="BRIDGE" value="BRIDGE"/>
+	</acme:form-select>
+	</jstl:if>
+	
+	<jstl:if test="${round == 'ANGEL' && command != 'create'}">
 	<acme:form-select code="entrepreneur.investmentRound.list.label.round" path="round">
 		<acme:form-option code="ANGEL" value="ANGEL"/>
 		<acme:form-option code="SEED" value="SEED"/>
@@ -27,7 +38,7 @@
 	</acme:form-select>
 	</jstl:if>
 	
-	<jstl:if test="${round == 'SERIES_A'}">
+	<jstl:if test="${round == 'SERIES_A' && command != 'create'}">
 	<acme:form-select code="entrepreneur.investmentRound.list.label.round" path="round">
 		<acme:form-option code="SERIES A" value="SERIES_A"/>
 		<acme:form-option code="SEED" value="SEED"/>
@@ -38,7 +49,7 @@
 	</acme:form-select>
 	</jstl:if>
 	
-	<jstl:if test="${round == 'SERIES_B'}">
+	<jstl:if test="${round == 'SERIES_B' && command != 'create'}">
 	<acme:form-select code="entrepreneur.investmentRound.list.label.round" path="round">
 		<acme:form-option code="SERIES B" value="SERIES_B"/>
 		<acme:form-option code="SEED" value="SEED"/>
@@ -49,7 +60,7 @@
 	</acme:form-select>
 	</jstl:if>
 	
-	<jstl:if test="${round == 'SERIES_C'}">
+	<jstl:if test="${round == 'SERIES_C' && command != 'create'}">
 	<acme:form-select code="entrepreneur.investmentRound.list.label.round" path="round">
 		<acme:form-option code="SERIES C" value="SERIES_C"/>
 		<acme:form-option code="SEED" value="SEED"/>
@@ -60,7 +71,7 @@
 	</acme:form-select>
 	</jstl:if>
 	
-	<jstl:if test="${round == 'BRIDGE'}">
+	<jstl:if test="${round == 'BRIDGE' && command != 'create'}">
 	<acme:form-select code="entrepreneur.investmentRound.list.label.round" path="round">
 		<acme:form-option code="BRIDGE" value="BRIDGE"/>
 		<acme:form-option code="SEED" value="SEED"/>
