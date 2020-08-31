@@ -6,6 +6,7 @@ investor.application.form.label.ticker = Ticker
 investor.application.form.label.creation-moment = Momento de creación
 investor.application.form.label.statement = Declaración
 investor.application.form.label.money-offer = Oferta de dinero
+investor.application.form.label.status = Estado
 investor.application.form.label.investmentRounds = Ronda de inversión
 
 investor.application.ticker.error.year = Los dos números centrales deben ser los dos últimos números de este año

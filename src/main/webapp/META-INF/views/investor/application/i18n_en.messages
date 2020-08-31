@@ -6,6 +6,7 @@ investor.application.form.label.ticker = Ticker
 investor.application.form.label.creation-moment = Creation moment
 investor.application.form.label.statement = Statement
 investor.application.form.label.money-offer = Money Offer 
+investor.application.form.label.status = Status
 investor.application.form.label.investmentRounds = Investment Round
 
 investor.application.ticker.error.year = The two middle numbers have to be the last two numbers of this year
