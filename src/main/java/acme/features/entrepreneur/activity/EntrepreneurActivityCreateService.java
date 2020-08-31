@@ -16,6 +16,7 @@ import acme.framework.components.Errors;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.datatypes.Money;
+import acme.framework.entities.Principal;
 import acme.framework.services.AbstractCreateService;
 
 @Service
@@ -32,19 +33,22 @@ public class EntrepreneurActivityCreateService implements AbstractCreateService<
 		boolean result = false;
 		boolean aux = false;
 		boolean aux2 = false;
-
+		boolean aux3 = false;
 		int investmentRoundId;
 		InvestmentRound investmentRound;
+		Principal principal;
 
+		principal = request.getPrincipal();
 		investmentRoundId = request.getModel().getInteger("investmentRoundId");
 		investmentRound = this.repository.findOneInvestmentRoundById(investmentRoundId);
 		aux2 = !investmentRound.isFinalMode();
+		aux3 = investmentRound.getEntrepreneur().getUserAccount().getId() == principal.getAccountId();
 
 		if (request.getPrincipal().hasRole(Entrepreneur.class)) {
 			aux = true;
 		}
 
-		result = aux && aux2;
+		result = aux && aux2 && aux3;
 
 		return result;
 	}
