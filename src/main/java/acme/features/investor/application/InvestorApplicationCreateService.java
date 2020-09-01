@@ -35,7 +35,8 @@ public class InvestorApplicationCreateService implements AbstractCreateService<I
 
 		boolean result;
 
-		result = request.getPrincipal().hasRole(Investor.class);
+		InvestmentRound ir = this.repository.findInvestmentRoundById(request.getModel().getInteger("iRoundId"));
+		result = request.getPrincipal().hasRole(Investor.class) && ir.isFinalMode();
 		return result;
 
 	}
