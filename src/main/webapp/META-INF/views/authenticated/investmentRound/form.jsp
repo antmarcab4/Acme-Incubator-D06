@@ -22,7 +22,6 @@
 	<acme:form-money code="authenticated.investmentRound.list.label.amount" path="amount" readonly="true"/>
 	<acme:form-textbox code="authenticated.investmentRound.list.label.ticker" path="ticker" readonly="true"/>
 	<acme:form-url code="authenticated.investmentRound.list.label.optionalLink" path="optionalLink" readonly="true"/>
-	<acme:form-url code="authenticated.investmentRound.list.label.optionalLink" path="optionalLink" readonly="true"/>
 	
 	<acme:form-submit method="get" code="authenticated.investmentRound.form.label.activities" action="/authenticated/activity/list-from-investment?investmentRoundId=${id}"/> 
 	
