@@ -30,8 +30,8 @@ public class InvestorInvestmentRoundShowService implements AbstractShowService<I
 		assert entity != null;
 		assert model != null;
 
+		model.setAttribute("finalMode", entity.isFinalMode());
 		request.unbind(entity, model, "title", "description", "amount", "round", "creation", "optionalLink", "ticker");
-
 	}
 
 	@Override

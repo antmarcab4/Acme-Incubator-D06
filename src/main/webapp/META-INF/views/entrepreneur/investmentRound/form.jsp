@@ -88,12 +88,7 @@
 	</jstl:if>
 	<acme:form-money code="entrepreneur.investmentRound.list.label.amount" path="amount"/>
 	<acme:form-textbox code="entrepreneur.investmentRound.list.label.ticker" path="ticker"/>
-	<jstl:if test="${command != 'show'}">
 	<acme:form-url code="entrepreneur.investmentRound.list.label.optionalLink" path="optionalLink"/>
-	</jstl:if>
-	<jstl:if test="${command == 'show'}">
-	<acme:form-textbox code="entrepreneur.investmentRound.list.label.optionalLink" path="optionalLink"/>
-	</jstl:if>
 	<jstl:if test="${command != 'create' && finalMode == 'false' || command == 'update' && finalMode == 'true'}">
     <acme:form-select code="entrepreneur.investmentRound.form.label.finalMode" path="finalMode">
     	<acme:form-option code="entrepreneur.investmentRound.form.label.false" value="false"/>

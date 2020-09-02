@@ -107,11 +107,9 @@ public class EntrepreneurActivityUpdateService implements AbstractUpdateService<
 			if (!errors.hasErrors("budget")) {
 				Money budget = entity.getBudget();
 				Double sum = this.repository.sumBudgetsByInvestmentRoundId(entity.getInvestmentRound().getId());
+				Double res = this.repository.findOneById(request.getModel().getInteger("id")).getBudget().getAmount();
+				sum = sum - res;
 				invstRound = this.repository.findOneInvestmentRoundById(entity.getInvestmentRound().getId());
-
-				if (sum == null) {
-					sum = 0.;
-				}
 				errors.state(request, sum + budget.getAmount() <= invstRound.getAmount().getAmount(), "budget", "entrepreneur.activity.budget.biggerThanAmount.error");
 				errors.state(request, budget.getCurrency().contentEquals("EUR") || budget.getCurrency().contentEquals("€"), "budget", "entrepreneur.activity.budget.currency.error");
 			}

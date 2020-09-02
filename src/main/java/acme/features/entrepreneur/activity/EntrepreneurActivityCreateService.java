@@ -80,11 +80,17 @@ public class EntrepreneurActivityCreateService implements AbstractCreateService<
 
 		Activity result;
 		result = new Activity();
+		Money mon = new Money();
 
 		int investmentRoundId = request.getModel().getInteger("investmentRoundId");
 		InvestmentRound investmentRound = this.repository.findOneInvestmentRoundById(investmentRoundId);
 
 		result.setInvestmentRound(investmentRound);
+
+		mon.setAmount(0.);
+		mon.setCurrency("eur");
+
+		result.setBudget(mon);
 
 		return result;
 	}
